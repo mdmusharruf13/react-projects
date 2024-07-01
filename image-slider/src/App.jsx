@@ -49,7 +49,7 @@ function App() {
   }
 
   return (
-    <div className="flex direction-col h-full w-full bg-grey">
+    <div className="flex direction-col h-full w-full bg-light-grey">
       <h1 className="uppercase text-center m-10">Image Slider</h1>
       <div className="flex justify-center align-center m-10">
         <BsArrowLeftCircleFill
@@ -73,6 +73,21 @@ function App() {
           className="arrow right-arrow"
         />
       </div>
+      <span className="flex justify-center align-center dot-container">
+        {images && images.length
+          ? images.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setCurrentSlide(index)}
+                className={
+                  currentSlide === index
+                    ? "dot-circle bg-grey"
+                    : "dot-circle bg-white"
+                }
+              ></button>
+            ))
+          : null}
+      </span>
     </div>
   );
 }
