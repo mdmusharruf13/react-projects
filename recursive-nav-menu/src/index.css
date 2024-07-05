@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+.direction-col {
+  flex-direction: column;
+}
+.w-300px {
+  width: 150px;
+}
+.curson-pointer {
+  cursor: pointer;
+}
+.m-5 {
+  margin: 10px;
+}
+.p-5 {
+  padding: 5px;
+}
+.h-full {
+  height: 100vh;
+}
+.bg-light-grey {
+  background-color: rgb(210, 201, 201);
+}
+.list-style-none {
+  list-style-type: none;
+}
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.icons {
+  height: 12px;
+}
