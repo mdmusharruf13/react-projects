@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.h-full {
+  height: 100vh;
+}
+.flex {
+  display: flex;
+}
+.space-around {
+  justify-content: space-around;
+}
+.align-center {
+  align-items: center;
+}
+.direction-col {
+  flex-direction: column;
+}
+/* .h-30px {
+  height: 30px;
+}
+.w-30px {
+  width: 30px;
+} */
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.border {
+  border: 0px;
+}
+.radius-3 {
+  border-radius: 3px;
+}
+
+.curson-pointer {
+  cursor: pointer;
+}
+.m-5 {
+  margin: 5px;
+}
+.m-10 {
+  margin: 10px;
+}
+.p-5 {
+  padding: 5px;
+}
