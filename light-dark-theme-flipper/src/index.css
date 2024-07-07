@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --text-primary: black;
+  --background: white;
+  --button-bg: #000;
+  --button-text: #fff;
+}
+
+[data-theme="dark"] {
+  --background: #000;
+  --text-primary: #fff;
+  --button-bg: #fff;
+  --button-text: #000;
+}
+
+/* font & text */
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+/* flex */
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.direction-col {
+  flex-direction: column;
+}
+
+/* height & width */
+.h-full {
+  height: 100vh;
+}
+.h-inherit {
+  height: inherit;
+}
+
+/* margin & padding */
+.p-5 {
+  padding: 5px;
+}
+.m-10 {
+  margin: 10px;
+}
+
+/* border */
+.border {
+  border: 1px solid var(--text-primary);
+}
+.radius-5 {
+  border-radius: 5px;
+}
+
+/* button */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* custom */
+.button {
+  background-color: var(--text-primary);
+  color: var(--background);
+}
+.heading {
+  color: var(--text-primary);
+}
+.main {
+  background-color: var(--background);
+  transition: all 0.5s;
+}
