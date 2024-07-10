@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.direction-col {
+  flex-direction: column;
+}
+
+.p-10 {
+  padding: 10px;
+}
+.m-10 {
+  margin: 10px;
+}
+.m-5 {
+  margin: 5px;
+}
+.p-5 {
+  padding: 5px;
+}
+.m-100 {
+  margin: 100px;
+}
+
+.w-70px {
+  width: 70px;
+}
+
+.button {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(233, 216, 216);
+  font-size: 2rem;
+}
